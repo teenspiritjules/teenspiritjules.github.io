@@ -1,0 +1,18 @@
+#
+# See: http://jekyllrb.com/docs/configuration/
+#
+gems:
+    - jekyll-sitemap
+    - jekyll-feed
+    - jekyll-mentions
+    - jekyll-redirect-from
+
+# Do not publish these files with the site build.
+exclude: [Gemfile, Gemfile.lock, vendor, README.md, CNAME]
+
+defaults:
+    -
+        scope:
+            path: "" # an empty string here means all files in the project
+        values:
+            layout: "default"
